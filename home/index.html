@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+   
+    <center>
+    <fieldset style="width: 900px;">
+       
+        <legend>Guest Interface</legend>
+  
+        <form class="mt-5" id="contactForm">
+
+        <h3 style="color: black;"><a href=""  style="color: black;">MAIN MENU</a>/CREATE NEW GUEST</h3>
+        <table cellpadding="15">
+              <div class="alert">Your message sent</div>
+        <tr>
+            <td><label>GUEST PASSPORT ID:</label></td>
+            <td><input type="text" autofocus required id="pass"></td>
+        </tr>
+            
+        <tr>
+            <td><label>GUEST FIRST NAME:</label></td>
+            <td><input type="text"  id="firstname" required></td>
+            <td><label>GUEST SECOND NAME:</label></td>
+            <td><input type="text" id="lastname" required></td>
+        </tr>
+        
+        
+      
+        <tr>
+            <td><label>WATER ALLOWANCE:</label></td>
+            <td><input type="number" id="num" required></td>
+        </tr>
+      
+
+        <tr>
+            <td><label>WATER ALLOWANCE<br>FREQUENCY:</label></td>
+            <td><input type="text" id="frequency" required></td>
+        </tr>
+        <tr>
+            <td><label>RFID CARD UID:</label></td>
+            <td><input type="text" id="carduid" required></td>
+        </tr>
+      
+      
+        
+    
+        
+        <td><button type="submit"   value="clear">CLEAR</button>&nbsp;&nbsp;&nbsp;<button type="submit" value="save" >SAVE</button></td>
+       
+        </table>
+        </form>
+        
+   
+
+    </fieldset>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+ 
+    <script src="../js/index.js"></script>
+</center>
+</body>
+</html>
